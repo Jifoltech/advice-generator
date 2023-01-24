@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&family=Manrope:wght@700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --Light-Cyan: hsl(193, 38%, 86%);
+  --Neon-Green: hsl(150, 100%, 66%);
+  --Grayish-Blue: hsl(217, 19%, 38%);
+  --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+  --Dark-Blue: hsl(218, 23%, 16%);
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  background-color: var(--Dark-Blue);
+}
+.card {
+  position: relative;
+  height: 200px !important;
+  width: 500px !important;
+  background-color: var(--Dark-Grayish-Blue);
+  font-family: Manrope;
+}
+
+h5 {
+  color: var(--Neon-Green);
+  font-size: 16px;
+}
+
+.button {
+  position: absolute;
+  bottom: -20px;
+  right: 225px;
+  width: 50px;
+  border-radius: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: var(--Neon-Green);
+  border: none;
+}
